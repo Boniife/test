@@ -117,7 +117,7 @@
             @apply flex mt-16 w-[1200px] h-[212px];
             &_body {
                 @apply w-[352px] h-[212px] pl-[3%] bg-white  rounded-[12px] ml-[6%];
-                padding: 20px, 16px, 20px, 16px;
+                // padding: 20px, 16px, 20px, 16px;
                 h3{
                     @apply w-[179px] h-[26px] text-[18px] font-medium text-center mt-4;
                     // line-height: 26.4;
