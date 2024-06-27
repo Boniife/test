@@ -176,9 +176,9 @@ const Content = () => {
             <div className='diagram'>
               <Image 
                 src={'/images/polygon1.png'}
-                alt=''
-                width={38}
-                height={38}
+                alt='poly'
+                width={58}
+                height={58}
                 className='mb-4'
                 />
               <p>
@@ -188,9 +188,9 @@ const Content = () => {
             <div className='diagram'>
               <Image 
                 src={'/images/polygon2.png'}
-                alt=''
-                width={38}
-                height={38}
+                alt='poly'
+                width={58}
+                height={58}
                 className='mb-4'
                 />
               <p>
@@ -200,9 +200,9 @@ const Content = () => {
             <div className='diagram'>
               <Image 
                 src={'/images/polygon3.png'}
-                alt=''
-                width={38}
-                height={38}
+                alt='poly'
+                width={58}
+                height={58}
                 className='mb-4'
                 />
               <p>
