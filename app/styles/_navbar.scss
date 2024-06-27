@@ -18,19 +18,17 @@
             @apply flex w-[321px] h-[49px] gap-[12px];
 
             .h21 {
-                @apply w-[162px] h-[49px] rounded-[24px] gap-[10px] text-white text-center py-5;
+                @apply w-[162px] h-[49px] rounded-[24px] gap-[10px] text-white text-center py-3;
                 font-weight: 600;
-                line-height: 19.2px;
-                font-size: 16px;
-                padding: 15px, 24px, 15px, 24px;
+                font-size: 13px;
+                // padding: 15px, 24px, 15px, 24px;
                 background-color: #20888F;
             }
             .h22 {
-                @apply w-[147px] h-[49px] rounded-[24px] gap-[10px] text-white text-center py-5;
+                @apply w-[147px] h-[49px] rounded-[24px] gap-[10px] text-white text-center py-3;
                 font-weight: 600;
-                line-height: 19.2px;
-                font-size: 16px;
-                padding: 15px, 24px, 15px, 24px;
+                font-size: 13px;
+                // padding: 15px, 24px, 15px, 24px;
                 background-color:  #303030;
                 ;
             }
