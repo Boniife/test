@@ -1,0 +1,94 @@
+.footer{
+    @apply bg-[#212121] max-w-[100%] h-[840px] text-white overflow-hidden;
+
+    &_1{
+        @apply w-[535px] h-[249px] pt-[44px] ml-[120px] gap-[61px];
+        .foot {
+            @apply w-[535px] h-[138px] gap-[12px] mb-10;
+            line-height: 26.56px;
+            h2{
+                @apply w-[300px] h-[72px] text-[56px] font-medium
+            }
+            p{
+                @apply w-[553px] h-[54px] text-[14px] font-normal 
+            }
+        }
+        .foot2 {
+            @apply w-[468px] h-[50px];
+            input {
+                @apply w-[318px] h-[50px] rounded-[25px] border-[1px] border-[#676767] bg-[#212121] pl-4
+            }
+            button {
+                @apply w-fit px-3 h-[50px] rounded-[25px] border-[1px] border-[#676767] bg-white text-black font-[700] ml-0
+            }
+        }
+    }
+    .border {
+        @apply border-[0.5px] mt-16 border-[#E9E9E9] mb-6 ;
+    }
+
+    &_2 {
+        @apply w-[1438px] h-[409px];
+        
+        .footee {
+            @apply flex w-[916px] h-[291px] mt-5 ml-[119px] ;
+            line-height: 27px;
+            .leg {
+                @apply w-[220px] h-[291px] gap-[15px] mr-9;
+                p{
+                    @apply w-[220px] h-[216px] text-[14px] font-light
+                }
+            }
+            .legs {
+                @apply w-[165px] h-[290px] mr-5;
+                h3 {
+                    @apply w-[79px] h-[26px] text-[17px] font-medium;
+                }
+                p{
+                    @apply text-[12px] font-light mt-2
+                }
+            }
+        }
+        .border2 {
+            @apply border-[0.5px] border-[#E9E9E9] h-[345px] mt-0 mr-5;
+        }
+
+        .footee2 {
+            @apply w-[6px] h-[331px] mt-5 ml-[2px];
+            // line-height: 26.16px;
+            h3{
+                @apply w-[79px] h-[26px] text-[17px] font-medium;
+            }
+            p {
+                @apply w-[79px] h-[26px] text-[12px] font-normal;
+            }
+        }
+        .border3 {
+            @apply border-[0.5px] mt-16 border-[#E9E9E9];
+        }
+    }
+    &_3 {
+        @apply flex;
+        .footee3 {
+            @apply w-[750px] h-[22px] ml-[119px];
+            p{
+                @apply text-[11px] font-light w-[740px]
+            }
+            h3{
+                @apply text-[15px] font-normal mt-7 w-[312px]
+            }
+            .shoe {
+                @apply flex text-[11px] font-normal w-[325px] h-[25px] mt-16;
+                h4{
+                    @apply w-[300px] ml-0
+                }
+            }
+        }
+        .footee4 {
+            @apply w-[346px] h-[92px];
+            p{
+                @apply text-[12px] font-light w-[217px] h-[38px]
+            }
+        }
+    }
+}

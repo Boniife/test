@@ -1,0 +1,198 @@
+.content {
+    @apply max-w-full overflow-hidden mt-20;
+    &_txt1 {
+        @apply w-[883px] h-[235px] ml-[222px] rounded-[32px] gap-[25px] bg-white flex flex-col items-center;
+        .contain {
+            @apply w-[843px] h-[90px] pt-[20px];
+            h2 {
+                @apply text-center font-normal text-[20px];
+                line-height: 30px;
+            }
+        }
+        .contain2 {
+            @apply w-[279px] h-[56px] mt-[28px];
+            h3 {
+                @apply text-center font-[500] text-[16px];
+                line-height: 24px;
+            }
+            p {
+                @apply text-center font-[400] text-[16px];
+                line-height: 24px;
+            }
+        }
+    }
+
+    &_txt2 {
+        @apply w-[1088px] h-[548px] ml-[178px] mt-[62px];
+        .h1head {
+            @apply w-[898px] h-[146px] justify-center;
+            h1 {
+                @apply font-[500] text-[56px] text-center;
+                line-height: 72.8px;
+            }
+        }
+        .grid{
+            @apply flex gap-[32px] mt-6;
+            &_1 {
+                @apply bg-white rounded-[12px] gap-[32px];
+
+                h2 {
+                    @apply font-[500] text-[23px] w-[462px] h-[58px] ml-6 mt-3;
+                    line-height: 28.8px;
+                }
+                p {
+                    @apply w-[480px] h-[197px] font-normal text-[17px] ml-6 mr-4 mt-2;
+                    line-height: 27.2px;
+                }
+                h3 {
+                    @apply text-[17px] font-[600] ml-6 mb-3;
+                    line-height: 27.2px;
+                }
+            }
+        }
+    }
+
+    &_txt3 {
+        @apply w-[1440px] h-[363px] mt-[52px];
+        .container {
+            @apply w-[1200px] ml-[88px];
+            &_thead {
+                @apply w-[628px] h-[119px] ml-[25%];
+                h2{
+                    @apply w-[465px] h-[67px] text-center font-medium text-[46px] pl-16;
+                    color: #212121;
+
+                }
+                p {
+                    @apply w-[628px] h-[48px] text-[17px] text-center font-normal mt-4;
+                }
+            }
+        }
+        .container2 {
+            @apply w-[1200px] ml-[18px] h-[160px] flex mt-16;
+            &_thead {
+                @apply w-[240px] h-[160px] p-[20px] justify-between;
+                h4 {
+                    @apply mb-4 font-normal text-[20px] text-white;
+                }
+                p {
+                    @apply font-normal text-[20px] text-white w-[180px] h-[48px]
+                }
+            }
+        }
+        .col {
+            background-color: #303030;
+        }
+        .colo {
+            background-color: #F47733;
+        }
+        .colou{
+            background-color: #FF78BF;
+        }
+        .colour{
+            background-color: #20888F;
+        }
+        .colours{
+            background-color: #FF88C6;
+        }
+    }
+
+    &_txt4 {
+        @apply w-[1440px] h-[407px] gap-[64px] mt-16;
+        padding: 0px, 120px, 0px, 120px;
+        .containe-head{
+            @apply w-[934px] h-[131px] gap-[20px] ml-[20%];
+            h1{
+                @apply w-[645px] h-[67px] font-medium text-[46px] ml-10 text-center;
+                line-height: 67.2px;
+                color: #212121;
+            }
+            p {
+                @apply w-[934px] h-[44px] font-normal text-[16px] mt-4;
+                line-height: 22.4px;
+                color: #4E4E4E;
+            }
+        }
+        .containe-down{
+            @apply flex mt-16 w-[1200px] h-[212px];
+            &_body {
+                @apply w-[352px] h-[212px] pl-[3%] bg-white  rounded-[12px] ml-[6%];
+                padding: 20px, 16px, 20px, 16px;
+                h3{
+                    @apply w-[179px] h-[26px] text-[18px] font-medium text-center mt-4;
+                    // line-height: 26.4;
+                    color: #212121;
+                }
+                p{
+                    @apply w-[320px] h-[110px] font-normal text-[16px] mt-10
+                }
+            }
+        }
+    }
+
+    &_txt5 {
+        @apply  w-[1440px] h-[850px] gap-[44px] mt-20;
+        padding: 0px, 120px, 0px, 120px;
+        .content {
+            @apply w-[934px] h-[151px] gap-[12px] ml-[16%];
+            h1{
+                @apply w-[765px] h-[67px] font-medium text-[46px] text-center;
+                color: #212121;
+            }
+            p{
+                @apply w-[934px] h-[72px] font-normal text-[16px] mt-3
+            }
+        }
+        .content2 {
+            @apply w-[1200px] h-[366px] gap-[64px] mt-10 ml-[7%];
+
+            &_body {
+                @apply w-[552px] h-[74px] gap-[12px];
+                h3 {
+                    @apply w-[164px] h-[38px] font-medium text-[30px];
+                    color: #212121;
+                }
+                p {
+                    @apply w-[552px] h-[24px] font-normal text-[15px] mt-3;
+                    color: #4E4E4E;
+                }
+            }
+            &_draw {
+                @apply w-[1200px] h-[228px] flex justify-between mt-6 ml-[1%];
+                .diagram {
+                    @apply bg-white rounded-[12px] p-[20px] w-[380px] h-[228px];
+                    p {
+                        @apply w-[340px] h-[132px] text-[17px] font-normal;
+                        color: #4E4E4E;
+                    }
+                }
+            }
+        }
+        .content3 {
+            @apply w-[1002px] h-[166px] gap-[44px] mt-6 ml-[13%];
+            &_body {
+                @apply w-[1002px] h-[74px] gap-[12px];
+                h2 {
+                    @apply w-[167px] h-[38px] text-[26px] font-medium mb-3;
+                    color: #212121;
+                }
+                p {
+                    @apply w-[1002px] h-[24px] text-[15px] font-normal;
+                    color: #4E4E4E;
+                }
+            }
+            &_txt {
+                @apply w-[899px] h-[48px] gap-[12px] flex mt-7;
+                p {
+                    @apply w-[286px] h-[48px] rounded-[24px] border-[0.5px] gap-[80px] text-center py-3;
+                    padding: 12px, 32px, 12px, 32px;
+                    background-color: white;
+                    border-color: #A4A4A4;
+                }
+            }
+        }
+        .bottom {
+            @apply w-[235.97px] h-[35px] gap-[2px] mt-7 ml-[38%] text-[#212121] underline font-bold
+        }
+    }
+}
