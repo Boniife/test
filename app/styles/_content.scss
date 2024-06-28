@@ -124,7 +124,7 @@
                     color: #212121;
                 }
                 p{
-                    @apply w-[320px] h-[110px] font-normal text-[16px] mt-10
+                    @apply w-[320px] h-[110px] font-normal text-[16px] mt-10;
                 }
             }
         }
@@ -246,6 +246,41 @@
                 color: #4E4E4E;
                 }
             }
+        }
+        .company {
+            @apply w-[147px] h-[35px] text-[14px] font-semibold ml-[40%] mt-16 underline;
+        }
+    }
+
+    &_txt8 {
+        @apply w-[1440px] h-[854px] gap-[56px] mt-3;
+        .con{
+            @apply w-[934px] h-[206px] gap-[24px] ml-[16%];
+            h3{
+                @apply w-[934px] h-[134px] font-medium text-[50px] text-center;
+                color: #212121;
+            }
+            p{
+                @apply w-[891px] h-[48px] font-normal text-[13px] mt-4 text-center ml-16;
+                color: #4E4E4E;
+            }
+        }
+        .con2 {
+            @apply w-[1200px] h-[342px] gap-[32px] ml-[7%] flex ;
+            &_neg {
+                @apply w-[380px] h-[322px] rounded-[12px] p-[20px] gap-[24px] bg-white mt-3;
+                h3{
+                    @apply w-[235px] h-[24px] text-[13px] font-medium pt-3;
+                    color: #212121;
+                }
+                p{
+                    @apply w-[340px] h-[228px] font-normal text-[12px] mt-9;
+                color: #4E4E4E;
+                }
+            }
+        }
+        .company {
+            @apply w-[147px] h-[35px] text-[14px] font-semibold ml-[40%] mt-16 underline;
         }
     }
 }

@@ -328,6 +328,72 @@ const Content = () => {
             </p>
           </div>
         </div>
+        <p className='company'>
+        Build your dream
+        </p>
+      </div>
+
+      <div className='content_txt8'>
+
+        <div className='con'>
+          <h3>
+          Join Our Entrepreneur In Residence (EIR) Program
+          </h3>
+          <p>
+          Our EIR program is our structured 3 months un-paid program designed to help us have a pipeline of business and technical cofounders who can run the venture of choice as CEO & CTO owning 20% equity each.
+          </p>
+        </div>
+
+        <div className='con2'>
+          <div className='con2_neg'>
+            <Image 
+              src={'/images/21.png'}
+              alt=''
+              width={60}
+              height={60}
+            />
+            <h3>
+            Application and Selection
+            </h3>
+            <p>
+            Begin your journey by completing our straightforward application form. Share insights into your entrepreneurial background, expertise, and your vision for supporting the success of our portfolio companies.
+Our dedicated selection committee, comprised of key stakeholders at SINC Partners, will carefully review your application.
+            </p>
+          </div>
+          <div className='con2_neg'>
+            <Image 
+              src={'/images/22.png'}
+              alt=''
+              width={60}
+              height={60}
+            />
+            <h3>
+            Alignment Meeting and Proposal Submission
+            </h3>
+            <p>
+            If your application stands out, we ll invite you to an alignment meeting. This is an opportunity to discuss the goals of our EIR program and explore how your expertise aligns with the needs of our portfolio companies.
+            Following the alignment meeting, submit a formal proposal outlining your intended contributions and how you envision adding significant value to our portfolio companies.
+            </p>
+          </div>
+          <div className='con2_neg'>
+          <Image 
+            src={'/images/23.png'}
+            alt=''
+            width={60}
+            height={60}
+          />           
+          <h3>
+          Negotiation and Agreement
+          </h3>
+          <p>
+          Upon successful alignment and proposal review, we ll engage in discussions to finalize the terms of your EIR role. This includes the duration, expectations, and any compensation or equity arrangements.
+          Once terms are agreed upon, we ll draft a formal agreement outlining the specifics of your EIR engagement, including reporting structures, responsibilities, and the support/resources provided by SINC Partners.
+          </p>
+          </div>
+        </div>
+        <p className='company'>
+          Support The Future
+        </p>
       </div>
     </div>
   )
