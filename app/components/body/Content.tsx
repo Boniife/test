@@ -440,6 +440,46 @@ Our dedicated selection committee, comprised of key stakeholders at SINC Partner
             height={449}
           />
         </div>
+        <p className='company'>
+        See More Equity Jobs
+        </p>
+      </div>
+
+      <div className='content_txt11'>
+        <h1>
+        Blogs & Resources
+        </h1>
+        <Image 
+          src={'/images/fame.png'}
+          alt=''
+          width={1198}
+          height={235}
+          className='mt-6'
+          />
+          {/* <Image 
+          src={'/images/'}
+          alt=''
+          width={1200}
+          height={79}
+          /> */}
+        <p className='company'>
+        See More Blogs & Resources
+        </p>
+      </div>
+
+      <div className='content_txt12'>
+
+        <h1>
+        Lets build companies that help everyone succeed
+        </h1>
+        <div className='content'>
+          <p>
+          SINC With Us
+          </p>
+          <p className='bg-[#303030] text-white'>
+          Apply to SIP 1.0
+          </p>
+        </div>
       </div>
     </div>
   )
