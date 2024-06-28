@@ -174,7 +174,7 @@ const Content = () => {
 
           <div className='content2_draw'>
             <div className='diagram'>
-              <div className='w-[40px] h-[40px] mb-4'>
+              <div className='w-[58px] h-[58px] mb-4'>
               <Image 
                 src={'/images/polygon1.png'}
                 alt='poly'
@@ -188,7 +188,7 @@ const Content = () => {
               </p>
             </div>
             <div className='diagram'>
-              <div className='w-[40px] h-[40px] mb-4'>
+              <div className='w-[58px] h-[58px] mb-4'>
               <Image 
                 src={'/images/polygon2.png'}
                 alt='poly'
@@ -202,7 +202,7 @@ const Content = () => {
               </p>
             </div>
             <div className='diagram'>
-            <div className='w-[40px] h-[40px] mb-4'>
+            <div className='w-[58px] h-[58px] mb-4'>
               <Image 
                 src={'/images/polygon3.png'}
                 alt='poly'
