@@ -244,6 +244,30 @@ const Content = () => {
         Become A Service Incubator
         </p>
       </div>
+
+      <div className='content_txt6'>
+
+        <div className='content'>
+          <h2>
+          Our Studio Portfolio
+          </h2>
+          <p>
+          Our 2024 Service Incubator Portfolio Companies
+          </p>
+        </div>
+
+        <div className='content2'>
+          <Image 
+            src={'/images/portfolio.png'}
+            alt='port'
+            width={1100}
+            height={520}
+          />
+        </div>
+        <p className='company'>
+          View All Companies
+        </p>
+      </div>
     </div>
   )
 }

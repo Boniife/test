@@ -195,4 +195,26 @@
             @apply w-[235.97px] h-[35px] gap-[2px] mt-7 ml-[38%] text-[#212121] underline font-bold
         }
     }
+
+    &_txt6 {
+        @apply w-[1442px] h-[765px] gap-[44px] mt-5;
+
+        .content {
+            @apply w-[551px] h-[122px] gap-[12px] ml-[30%];
+            h2{
+                @apply w-[551px] h-[75px] font-medium text-[52px];
+                color: #212121;
+            }
+            p{
+                @apply w-[352px] h-[55px] font-normal text-[13px] mt-4 ml-16;
+                color: #4E4E4E;
+            }
+        }
+        .content2 {
+            @apply w-[1100px] h-[520px] gap-[32px] ml-[9%] pt-5
+        }
+        .company {
+            @apply w-[147px] h-[35px] text-[14px] font-semibold ml-[40%] mt-16 underline
+        }
+    }
 }
