@@ -253,7 +253,7 @@
     }
 
     &_txt8 {
-        @apply w-[1440px] h-[854px] gap-[56px] mt-3;
+        @apply w-[1440px] h-[624px] gap-[56px] mt-3;
         .con{
             @apply w-[934px] h-[206px] gap-[24px] ml-[16%];
             h3{
@@ -281,6 +281,42 @@
         }
         .company {
             @apply w-[147px] h-[35px] text-[14px] font-semibold ml-[40%] mt-16 underline;
+        }
+    }
+    
+    &_txt9 {
+        @apply w-[1440px] h-[712px] gap-[44px];
+        .content{
+            @apply w-[934px] h-[216px] gap-[24px] ml-[16%];
+        h1{
+            @apply w-[685px] h-[67px] font-medium text-[46px] ml-[20%];
+            color: #212121;
+        }
+        p{
+            @apply w-[934px] h-[128px] font-normal text-[13px] mt-4;
+            color: #4E4E4E;
+        }
+        }
+        .content2{
+            @apply w-[1200px] h-[529px] ml-[7%];
+            h4{
+                @apply w-[644px] h-[24px] text-[16px] font-semibold
+            }
+        }
+    }
+
+    &_txt10{
+        @apply w-[1200px] h-[680px] ml-[120px];
+        .content{
+            @apply w-[934px] h-[128px] gap-[24px] ml-[133px];
+        h1{
+            @apply w-[285px] h-[67px] font-medium text-[46px] ml-[30%];
+            color: #212121;
+        }
+        p{
+            @apply w-[934px] h-[37px] font-normal text-[13px] mt-4;
+            color: #4E4E4E;
+        }
         }
     }
 }

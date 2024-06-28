@@ -395,6 +395,52 @@ Our dedicated selection committee, comprised of key stakeholders at SINC Partner
           Support The Future
         </p>
       </div>
+
+      <div className='content_txt9'>
+
+        <div className='content'>
+          <h1>
+          SINC Investors Network
+          </h1>
+          <p>
+          Our deals are structured not just to take in investments but to onboard owners passionate about our solutions. Our portfolio companies are valued at $50k at start, with these low valuation, you are guaranteed at least 2x-5x, usually been the first to invest. 
+          <br /> <span className='font-bold text-[18px]'>Disclaimer:</span> These deal flows is a statement of our projections and may differ from stage to stage and from venture to venture and the guarantee is for deal 1, usually the first to invest
+          </p>
+        </div>
+
+        <div className='content2'>
+          <h4>
+          Micro Angel Investors & Service incubators (Invest from $500 & above)
+          </h4>
+          <Image
+            src={'/images/just.png'}
+            alt=''
+            width={1200}
+            height={473}
+          />
+        </div>
+      </div>
+
+      <div className='content_txt10'>
+
+        <div className='content'>
+          <h1>
+          Equity jobs
+          </h1>
+          <p>
+          See companies and startups offering equity or a mix of cash and equity for very important position in their company
+          </p>
+        </div>
+
+        <div className='content2'>
+          <Image 
+            src={'/images/print.png'}
+            alt=''
+            width={1199}
+            height={449}
+          />
+        </div>
+      </div>
     </div>
   )
 }
