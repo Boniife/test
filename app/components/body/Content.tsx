@@ -176,7 +176,7 @@ const Content = () => {
             <div className='diagram'>
               <div className='w-[40px] h-[40px] mb-4'>
               <Image 
-                src={'/images/white.png'}
+                src={'/images/polygon1.png'}
                 alt='poly'
                 width={38}
                 height={38}
