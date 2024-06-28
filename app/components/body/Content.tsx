@@ -174,37 +174,43 @@ const Content = () => {
 
           <div className='content2_draw'>
             <div className='diagram'>
+              <div className='w-[40px] h-[40px] mb-4'>
               <Image 
                 src={'/images/polygon1.png'}
                 alt='poly'
                 width={58}
                 height={58}
-                className='mb-4'
+                className=''
                 />
+                </div>
               <p>
               Most early-stage companies and pre-product startups cannot afford professional services especially those who don’t have family and friends’ network that can support
               </p>
             </div>
             <div className='diagram'>
+              <div className='w-[40px] h-[40px] mb-4'>
               <Image 
                 src={'/images/polygon2.png'}
                 alt='poly'
                 width={58}
                 height={58}
-                className='mb-4'
+                className=''
                 />
+                </div>
               <p>
               If startups can seed 5-10% in equity to incubators for $20k to $200k funding most times, they will be willing to seed 10% equity for a $25k service investment
               </p>
             </div>
             <div className='diagram'>
+            <div className='w-[40px] h-[40px] mb-4'>
               <Image 
                 src={'/images/polygon3.png'}
                 alt='poly'
                 width={58}
                 height={58}
-                className='mb-4'
+                className=''
                 />
+                </div>
               <p>
               Young professionals who don’t have a lot of money to invest nor an accredited investors will have opportunities to take equity at the early stage of their career, usually been the first to invest and almost guaranteed of return
               </p>
