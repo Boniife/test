@@ -176,7 +176,7 @@ const Content = () => {
             <div className='diagram'>
               <div className='w-[40px] h-[40px] mb-4'>
               <Image 
-                src={'/images/polygon1.png'}
+                src={'/images/Polygon1.png'}
                 alt='poly'
                 width={38}
                 height={38}
@@ -190,7 +190,7 @@ const Content = () => {
             <div className='diagram'>
               <div className='w-[40px] h-[40px] mb-4'>
               <Image 
-                src={'/images/polygon2.png'}
+                src={'/images/Polygon2.png'}
                 alt='poly'
                 width={38}
                 height={38}
@@ -204,7 +204,7 @@ const Content = () => {
             <div className='diagram'>
             <div className='w-[40px] h-[40px] mb-4'>
               <Image 
-                src={'/images/polygon3.png'}
+                src={'/images/Polygon3.png'}
                 alt='poly'
                 width={38}
                 height={38}
@@ -258,7 +258,7 @@ const Content = () => {
 
         <div className='content2'>
           <Image 
-            src={'/images/portfolio.png'}
+            src={'/images/Portfolio.png'}
             alt='port'
             width={1100}
             height={520}
