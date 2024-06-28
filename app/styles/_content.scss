@@ -131,7 +131,7 @@
     }
 
     &_txt5 {
-        @apply  w-[1440px] h-[850px] gap-[44px] mt-20;
+        @apply  w-[1440px] h-[810px] gap-[44px] mt-20;
         padding: 0px, 120px, 0px, 120px;
         .content {
             @apply w-[934px] h-[151px] gap-[12px] ml-[16%];
@@ -197,7 +197,7 @@
     }
 
     &_txt6 {
-        @apply w-[1442px] h-[765px] gap-[44px] mt-5;
+        @apply w-[1442px] h-[705px] gap-[44px] mt-5;
 
         .content {
             @apply w-[551px] h-[122px] gap-[12px] ml-[30%];
@@ -215,6 +215,37 @@
         }
         .company {
             @apply w-[147px] h-[35px] text-[14px] font-semibold ml-[40%] mt-16 underline;
+        }
+    }
+
+    &_txt7 {
+        @apply w-[1440px] h-[513px] gap-[40px] mt-3;
+
+        .content {
+            @apply w-[891px] h-[115px] gap-[24px] ml-[23%];
+            h2{
+                @apply w-[462px] h-[67px] font-medium text-[52px] ml-24;
+                color: #212121;
+            }
+            p{
+                @apply w-[891px] h-[24px] font-normal text-[13px] mt-4;
+                color: #4E4E4E;
+            }
+        } 
+
+        .content2 {
+            @apply w-[1200px] h-[296px] justify-between ml-[7%] flex ;
+            .con {
+                @apply w-[380px] h-[276px] rounded-[12px] p-[20px] gap-[24px] bg-white mt-3;
+                h3{
+                    @apply w-[95px] h-[24px] text-[14px] font-medium;
+                    color: #212121;
+                }
+                p{
+                    @apply w-[340px] h-[132px] font-normal text-[12px] mt-4;
+                color: #4E4E4E;
+                }
+            }
         }
     }
 }
